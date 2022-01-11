@@ -16,7 +16,7 @@ resource "aws_vpc" "demo" {
 }
 )
 
-#The map function has been deprecated in the version v0.12  
+#The map function has been deprecated in the version v0.12.
   #tags = map(
  #   "Name", "terraform-eks-demo-node",
  #   "kubernetes.io/cluster/${var.cluster-name}", "shared",
